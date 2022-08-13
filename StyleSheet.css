@@ -1,0 +1,110 @@
+header, section {
+ background: #c1907b;
+ padding: 0.5%;
+}
+
+h1, h2 {
+ text-align: center;
+}
+
+section {
+ margin-bottom: 50px;
+}
+
+nav {
+ font-size: 1.25em;
+ font-family: "Lucida Console", "Courier New", monospace; 
+ text-align: center;
+ margin-top: 25px;
+ margin-bottom: 25px;
+}
+
+nav a {
+ text-decoration: none;
+ /* removes the underline in the nav for aesthetics */
+}
+
+nav a:hover{
+ color: #c1907b;
+}
+
+a:hover{
+ color: #ffffff;
+}
+
+a {
+  color: #000000;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body { 
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 100%; 
+}
+
+h1 {
+ color: #ffffff; 
+ font-size: 2.5em; 
+ text-shadow: 4px 4px 4px #042436;
+ /* Horizontal + vertical shadow, blur, and shadow colour */
+}
+
+h2 { 
+ color: #ffffff;
+ font-size: 1.875em; 
+ text-shadow: 4px 4px 4px #042436;
+}
+
+p { 
+ font-size: 0.875em;
+  padding-left: 5px;
+}
+
+figure {
+ text-align:center;
+/* centers the pictures and videos*/
+}
+
+img {
+
+  height: 300px;
+  max-width: 350px;
+/* resizes the images */
+}
+
+iframe {
+border: 0px;
+/* removes the outer border from the youtube videos */
+}
+
+div.quizstyle {
+ text-align: center;
+ /* centers the quiz (but not left aligned) */
+}
+
+form { 
+ display: inline-block; 
+ text-align: left; 
+ /* left aligns the quiz, while maintaing the div.quizstyle text centering */	
+}
+
+.button {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+/* centers the button */
+}
+
+footer {
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: 		center;
+ font-size: 		1em; 
+ background: 		#ffffff;
+
+ margin-top:	-25px;
+/* shifts the text up */
+ margin-bottom: 	25px;
+}

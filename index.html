@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<title>How linguists and mathematicians decrypted the enigma machine using computers</title>
+	<meta charset="utf-8" />
+	<meta name="description" content="Infomration about the enigma machine" />
+	<meta name="keywords" content="enigma machine, statistics, configuration, encryption, decryption, Turing machine" />  
+	<meta name="author" content="Raphael Tsakrios" />
+	<link rel="stylesheet" type="text/css" href="StyleSheet.css" media="screen" />
+	<script src="JavaScript.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- About viewport: https://www.w3schools.com/css/css_rwd_viewport.asp -->
+
+</head>
+
+<body>
+
+	<header>
+		<h1 id="top">How linguists and mathematicians decrypted the enigma machine using computers</h1>
+	</header>
+
+	<nav>
+		<a href="#1">What was the enigma machine?</a> | <a href="#2">How it worked</a> | <a href="#3">How it was decrypted</a> | <a href="#4">Quiz</a>
+	</nav>
+
+	<section>
+
+		<h2 id="1">What was the enigma machine?</h2>
+
+		<figure id="sec-1">
+			<img src="images/what_was_it.jpg" alt="Image of an enigma machine" />
+			<iframe width="350" height="300" src="https://www.youtube.com/embed/ASfAPOiq_eQ" title="The Enigma Machine Explained"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</figure>
+
+		<p>
+		The enigma machine was a mechanical encryption device originally developed for commercial purposes, by german engineer Arthur Scherbius in 1918.
+		</p>
+
+		<p> 
+		During World War 2 however, the enigma machine became a powerful tool used by Nazi Germany in order to encrypt military messages (before sending them over radio lines in the form of morse code).
+		</p>
+
+		<p>
+		<a href="#top">Go to top</a>
+		</p>
+	
+	</section>
+
+	<section>
+
+		<h2 id="2">How it worked</h2>
+
+		<figure id="sec-2">
+			<img src="images/how_it_worked.jpg" alt="Image of an enigma machine's internal wiring configuration" />
+			<iframe width="350" height="300" src="https://www.youtube.com/embed/d2NWPG2gB_A" title="Turing's Enigma Problem (Part 1) - Computerphile" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</figure>
+
+		<p>
+		The enigma machine consisted of several conponents. the first component was a 'plug board' which you could use to sustitute one letter for another by cross wiring them. 
+		</p>
+
+		<p>
+		the second component was the 'Rotors'. There were usually 5 different rotors to choose from, but only 3 could be loaded into the enigma machine, adding a further degree of randomness. To make things more complicated, the 3 rotots could be arranged in different orders, to give different encryptions.
+		</p>
+
+		<p>
+		The third component was the reflector, which would light up when pressing a button on the enigma machine. The reflector helped the user record the encrypted/decrypted message.
+		</p>
+
+		<p>
+		The enigma machine was therefore possible to encrypt a message in 158,962,555,217,826,360,000 different ways!
+		</p>
+
+		<p>
+		<a href="#top">Go to top</a>
+		</p>
+
+	</section>
+
+	<section>
+
+		<h2 id="3">How it was decrypted</h2>
+
+		<figure id="sec-3">
+			<img src="images/how_it_was_decrypted_1.jpg" alt="Image of the front view of the Turing bombe machine" />
+			<iframe width="350" height="300" src="https://www.youtube.com/embed/kj_7Jc1mS9k" title="Tackling Enigma (Turing's Enigma Problem Part 2) - Computerphile" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<img src="images/how_it_was_decrypted_2.jpg" alt="Image of the interior view of the Turing bombe machine" />
+		</figure>
+
+		<p>
+		It became possible to decrypt the enigma machine through the work of a team of mathematicians, linguists, and military intelligence gathering. 
+		</p>
+
+		<p>
+		The first useful discovery was that the enigma machine could never decrypt a letter as itself.
+		</p>
+
+		<p>
+		Secondly, it became known that the Germans always sent weather reports first thing in the morning, and so the focus became to decode keywords relating to the weather, such as 'rain'.
+		</p>
+
+		<p>
+		Also, the common use of the expression “Heil Hitler” at the end of messages (as discovered through military intelligence), became another keyword to search for.
+		</p>
+
+		<p>
+		Finally, the development of an electrical circuit machine known as the "Bombe machine", gave the Allies a means to check for possible solutions at an unprecedented speed; by ruling out incompatible enigma configurations using the above-mentioned conditions.
+		</p>
+
+		<p>
+		The remaining list of possible solutions were then manually checked by humans against the rest of the message for further matches; thus making it possible to break any enigma code in less than 20 minutes!
+		</p>
+
+		<p>
+		<a href="#top">Go to top</a>
+		</p>
+		
+	</section>
+
+	<section>
+
+		<h2 id="4">Quiz</h2>
+
+		<div class="quizstyle">
+			
+			<form id="quizF" name="quizF" method="post">
+
+				<p>Q1. How many rotors could an enigma machine load?<br />
+					<label>
+						<input type="radio" name="q1RB" id="radio" value="1" />
+					</label>
+						3<br />
+    
+					<label>
+						<input type="radio" name="q1RB" id="radio2" value="2" />
+					</label>
+						4<br />
+				
+					<label>
+						<input type="radio" name="q1RB" id="radio3" value="3" />
+					</label>
+						5<br />
+				
+					<label>
+						<input type="radio" name="q1RB" id="radio4" value="4" />
+					</label>
+						6<br />
+				</p>
+
+				<p>Q2. Who Invented the enigma machine<br />
+					<label>
+						<input type="radio" name="q2RB" id="radio5" value="1" />
+					</label>
+						Thomas Edison<br />
+    
+					<label>
+						<input type="radio" name="q2RB" id="radio6" value="2" />
+					</label>
+						Nikola Tesla<br />
+   
+					<label>
+						<input type="radio" name="q2RB" id="radio7" value="3" />
+					</label>
+						Arthur Scherbius<br />
+						
+					<label>
+						<input type="radio" name="q2RB" id="radio8" value="4" />
+					</label>
+						Gustaf de Laval
+				</p>
+
+				<p>Q3. Could an enigma machine encrypt a letter as itself?<br />
+					<label>
+						<input type="radio" name="q3RB" id="radio9" value="1" />
+					</label>
+						Yes<br />
+    
+					<label>
+						<input type="radio" name="q3RB" id="radio10" value="2" />
+					</label>
+						No<br />
+				</p>
+
+				<p>Q4. Which phrase became a key phrase in decoding messages?<br />
+					<label>
+						<input type="radio" name="q4RB" id="radio11" value="1" />
+					</label>
+						Blut und Boden<br />
+    
+					<label>
+						<input type="radio" name="q4RB" id="radio12" value="2" />
+					</label>
+						Heil Hitler<br />
+						
+					<label>
+						<input type="radio" name="q4RB" id="radio13" value="3" />
+					</label>
+						America<br />
+    
+					<label>
+						<input type="radio" name="q4RB" id="radio14" value="4" />
+					</label>
+						Ciper
+				</p>
+
+				<p>Q5. What was the enigma decoder known as?<br />
+					<label>
+						<input type="radio" name="q5RB" id="radio15" value="1" />
+					</label>
+						Code Breaker<br />
+						
+					<label>
+						<input type="radio" name="q5RB" id="radio16" value="2" />
+					</label>
+						Processing Machine<br />
+						
+					<label>
+						<input type="radio" name="q5RB" id="radio17" value="3" />
+					</label>
+					Nazi Decryptor<br />
+    
+					<label>
+						<input type="radio" name="q5RB" id="radio18" value="4" />
+					</label>
+						Bombe machine 
+				</p>
+				
+			</form>
+			
+		</div>
+
+		<p>
+			<label>
+				<span class="button"><input type="button" name="submitB" id="submitB" value="Submit" onclick="quiz ()"/></span>
+			</label>
+		</p>
+
+		<p>
+			<a href="#top">Go to top</a>
+		</p>
+
+	</section>
+
+	<footer>
+	
+		<p><em>Raphael Tsakrios &copy; 2022</em></p>
+		
+	</footer>
+
+</body>
+</html>
