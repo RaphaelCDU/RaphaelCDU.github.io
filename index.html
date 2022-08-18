@@ -23,7 +23,7 @@
 	</header>
 
 	<nav>
-		<a href="#1">What was the enigma machine?</a> | <a href="#2">How it worked</a> | <a href="#3">How it was decrypted</a> | <a href="#4">Quiz</a>
+		<a href="#1">What was the enigma machine?</a> | <a href="#2">How it worked</a> | <a href="#3">How it was decrypted</a> | <a href="#4">Flash cards revision</a>
 	</nav>
 
 	<section>
@@ -122,121 +122,77 @@
 
 	<section>
 
-		<h2 id="4">Quiz</h2>
+	<h2 id="4">Flash cards revision</h2>
 
-		<div class="quizstyle">
+	<div class="container">
+		<div class="card"  onclick="flip(event)">
+		
+			<div class="front">
+				<p>How many rotors could an enigma machine load?</p>
+			</div>
 			
-			<form id="quizF" name="quizF" method="post">
-
-				<p>Q1. How many rotors could an enigma machine load?<br />
-					<label>
-						<input type="radio" name="q1RB" id="radio" value="1" />
-					</label>
-						3<br />
-    
-					<label>
-						<input type="radio" name="q1RB" id="radio2" value="2" />
-					</label>
-						4<br />
-				
-					<label>
-						<input type="radio" name="q1RB" id="radio3" value="3" />
-					</label>
-						5<br />
-				
-					<label>
-						<input type="radio" name="q1RB" id="radio4" value="4" />
-					</label>
-						6<br />
-				</p>
-
-				<p>Q2. Who Invented the enigma machine<br />
-					<label>
-						<input type="radio" name="q2RB" id="radio5" value="1" />
-					</label>
-						Thomas Edison<br />
-    
-					<label>
-						<input type="radio" name="q2RB" id="radio6" value="2" />
-					</label>
-						Nikola Tesla<br />
-   
-					<label>
-						<input type="radio" name="q2RB" id="radio7" value="3" />
-					</label>
-						Arthur Scherbius<br />
-						
-					<label>
-						<input type="radio" name="q2RB" id="radio8" value="4" />
-					</label>
-						Gustaf de Laval
-				</p>
-
-				<p>Q3. Could an enigma machine encrypt a letter as itself?<br />
-					<label>
-						<input type="radio" name="q3RB" id="radio9" value="1" />
-					</label>
-						Yes<br />
-    
-					<label>
-						<input type="radio" name="q3RB" id="radio10" value="2" />
-					</label>
-						No<br />
-				</p>
-
-				<p>Q4. Which phrase became a key phrase in decoding messages?<br />
-					<label>
-						<input type="radio" name="q4RB" id="radio11" value="1" />
-					</label>
-						Blut und Boden<br />
-    
-					<label>
-						<input type="radio" name="q4RB" id="radio12" value="2" />
-					</label>
-						Heil Hitler<br />
-						
-					<label>
-						<input type="radio" name="q4RB" id="radio13" value="3" />
-					</label>
-						America<br />
-    
-					<label>
-						<input type="radio" name="q4RB" id="radio14" value="4" />
-					</label>
-						Ciper
-				</p>
-
-				<p>Q5. What was the enigma decoder known as?<br />
-					<label>
-						<input type="radio" name="q5RB" id="radio15" value="1" />
-					</label>
-						Code Breaker<br />
-						
-					<label>
-						<input type="radio" name="q5RB" id="radio16" value="2" />
-					</label>
-						Processing Machine<br />
-						
-					<label>
-						<input type="radio" name="q5RB" id="radio17" value="3" />
-					</label>
-					Nazi Decryptor<br />
-    
-					<label>
-						<input type="radio" name="q5RB" id="radio18" value="4" />
-					</label>
-						Bombe machine 
-				</p>
-				
-			</form>
-			
+			<div class="back">
+				<p>3</p>
+			</div>
+		
 		</div>
+	</div>
 
-		<p>
-			<label>
-				<span class="button"><input type="button" name="submitB" id="submitB" value="Submit" onclick="quiz ()"/></span>
-			</label>
-		</p>
+	<div class="container">
+		<div class="card"  onclick="flip(event)">
+		
+			<div class="front">
+				<p>Who Invented the enigma machine</p>
+			</div>
+			
+			<div class="back">
+				<p>Arthur Scherbius</p>
+			</div>
+		
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="card"  onclick="flip(event)">
+		
+			<div class="front">
+				<p>Could an enigma machine encrypt a letter as itself?</p>
+			</div>
+			
+			<div class="back">
+				<p>No</p>
+			</div>
+		
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="card"  onclick="flip(event)">
+		
+			<div class="front">
+				<p>Which phrase became a key phrase in decoding messages?</p>
+			</div>
+			
+			<div class="back">
+				<p>Heil Hitler</p>
+			</div>
+		
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="card"  onclick="flip(event)">
+		
+			<div class="front">
+				<p>What was the enigma decoder known as?</p>
+			</div>
+			
+			<div class="back">
+				<p>Bombe machine</p>
+			</div>
+		
+		</div>
+	</div>
 
 		<p>
 			<a href="#top">Go to top</a>
