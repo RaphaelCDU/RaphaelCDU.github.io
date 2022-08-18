@@ -121,6 +121,7 @@ div {
 
  transition: transform 2s;
  transform-style: preserve-3d;
+ cursor: pointer;
  /* flips the container */
 }
 
