@@ -115,8 +115,6 @@ div {
  color: #ffffff;
  font-size: 1.875em; 
  text-shadow: 4px 4px 4px #042436;
- background: rgb(219,195,184);
- background: radial-gradient(circle, rgba(219,195,184,1) 0%, rgba(180,180,180,1) 75%);
  /* styles the container */
 
  transition: transform 2s;
@@ -135,7 +133,14 @@ div {
  /* hides the reverse side of the card when flipped */
 }
 
+.front {
+ background: rgb(219,195,184);
+ background: radial-gradient(circle, rgba(219,195,184,1) 0%, rgba(180,180,180,1) 75%);
+}
+
 .back {
+ background: rgb(219,195,184);
+ background: radial-gradient(circle, rgba(219,195,184,1) 0%, rgba(180,180,180,1) 75%);
  transform: rotateY(180deg);
 }
 
